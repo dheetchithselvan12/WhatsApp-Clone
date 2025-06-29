@@ -34,6 +34,9 @@ body {
     color: #ddd9d9;
     cursor: pointer;
 }
+.nav-bar .fa-bars {
+    margin-bottom: 8px;
+}
 .nav-two {
     display: flex;
     flex-direction: column;
@@ -44,31 +47,55 @@ body {
 
 
 
-.chats {
-    background: #2c2c2c;
-    width: 65%;
-    height: 100vh;
-}
-
 /* Contacts */
 
 .contacts {
-    background: #2c2c2c;
+    background: #2d2d2d;
     width: 32%;
     height: 100vh;
-}
-
-.contacts {
+    border-right: 3px solid #292929;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
 }
+
 .contacts .head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #ddd9d9;
+    margin-top: 8px;
 }
 .contacts .head h1 {
-    font-size: 26px;
+    font-size: 24px;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid #1daa61;
+    border-radius: 5px;
+    background: #202020;
+    margin-top: 15px;
+}
+.search #input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #202020;
+    padding:0 10px;
+    color: #ddd9d9;
+}
+.search .i{
+    color: #ddd9d9;
+}
+
+
+/* Chats */
+.chats {
+    background: #2d2d2d;
+    width: 65%;
+    height: 100vh;
 }
