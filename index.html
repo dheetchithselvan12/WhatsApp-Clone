@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/whatsapp.png" type="image/x-icon">
     <title>WhatsApp</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -13,19 +14,24 @@
 
     <section class="nav-bar">
         <div class="nav-one">
-            <i class="fa-solid fa-bars i" title="Open Navigation"></i>
-            <i class="fa-solid fa-message i" title="Chats"></i>
-            <i class="fa-solid fa-phone i" title="Call"></i>
-            <i class="fa-solid fa-clapperboard i" title="Status"></i>
-            <hr>
+            <i class="fa-solid fa-bars i" title="Open Navigation" id="nav-expand"></i>
+            <a href="#"><i class="fa-solid fa-message i" title="Chats"></i><span class="nav-text">Chats</span></a>
+            <a href="#"><i class="fa-solid fa-phone i" title="Call"></i><span class="nav-text">Call</span></a>
+            <a href="#"><i class="fa-solid fa-clapperboard i" title="Status"></i><span
+                    class="nav-text">Status</span></a>
+            <hr class="divid">
         </div>
         <div class="nav-two">
-            <i class="fa-solid fa-lock i" title="Locked Chats"></i>
-            <i class="fa-solid fa-star i" title="Starred Messages"></i>
-            <i class="fa-solid fa-box-archive i" title="Archived Chats"></i>
-            <hr>
-            <i class="fa-solid fa-gear i" title="Settings"></i>
-            <i class="fa-solid fa-user i" title="Account"></i>
+            <a href="#"><i class="fa-solid fa-lock i" title="Locked Chats"></i><span class="nav-text">Locked
+                    chats</span></a>
+            <a href="#"><i class="fa-solid fa-star i" title="Starred Messages"></i><span class="nav-text">Starred
+                    messages</span></a>
+            <a href="#"><i class="fa-solid fa-box-archive i" title="Archived Chats"></i><span class="nav-text">Archived
+                    chats</span></a>
+            <hr class="divid">
+            <a href="#"><i class="fa-solid fa-gear i" title="Settings"></i><span class="nav-text">Settings</span></a>
+            <a href="#"><i class="fa-solid fa-user i" title="Account"></i><span class="nav-text">Profile</span></a>
+
         </div>
     </section>
 
@@ -42,30 +48,89 @@ New group(Ctrl+Shift+N)"></i>
             <i class="fa-solid fa-magnifying-glass i" title="Ctrl+F"></i>
             <input type="search" id="input" placeholder="Search or start a new chat">
         </div>
-        <div class="user-cards">
-            <img src="images/image.jpg" alt="profile" width="50px" height="50px">
-            <div class="detailes">
-                <h1>Vasanth</h1>
-                <p>Ok</p>
+        <div class="cards">
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
             </div>
-            <p id="sent-time">27-06-2025</p>
-        </div>
-        <div class="user-cards">
-            <img src="images/image.jpg" alt="profile" width="50px" height="50px">
-            <div class="detailes">
-                <h1>Vasanth</h1>
-                <p>Ok</p>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Arun</h1>
+                    <p>done</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
             </div>
-            <p id="sent-time">27-06-2025</p>
-        </div>
-        <div class="user-cards">
-            <img src="images/image.jpg" alt="profile" width="50px" height="50px">
-            <div class="detailes">
-                <h1>Vasanth</h1>
-                <p>Ok</p>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
             </div>
-            <p id="sent-time">27-06-2025</p>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
+            <div class="user-cards">
+                <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                <div class="detailes">
+                    <h1>Vasanth</h1>
+                    <p>Ok</p>
+                </div>
+                <p id="sent-time">27-06-2025</p>
+            </div>
         </div>
+
     </section>
 
     <section class="chats">
