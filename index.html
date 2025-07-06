@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/whatsapp.png" type="image/x-icon">
     <title>WhatsApp</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -38,10 +39,51 @@
     <section class="contacts">
         <div class="head">
             <h1>Chats</h1>
-            <div>
+            <div class="chat-toggle">
                 <i class="fa-regular fa-pen-to-square i" title="New chat (Ctrl+N)
 New group(Ctrl+Shift+N)"></i>
                 <i class="fa-solid fa-arrow-down-wide-short i" title="Filter chats by"></i>
+
+                <!-- new Chat toggle -->
+
+                <div class="new-chats">
+                    <h1>New chat</h1>
+                    <div class="search">
+                        <input type="search" id="input" placeholder="Search name or number"><i
+                            class='bx bx-dialpad'></i>
+                    </div>
+                    <div class="new-group">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h3>New group</h3>
+                    </div>
+                    <div class="new-contact">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>New contact</h3>
+                    </div>
+
+                    <div class="frequent">
+                        <p>Frequently contacted</p>
+                        <div class="user-cards">
+                            <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                            <div class="detailes">
+                                <h1>Vasanth</h1>
+                                <p>Ok</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="all-contact">
+                        <p>All contacts</p>
+                        <div class="user-cards">
+                            <img src="images/image.jpg" alt="profile" width="50px" height="50px">
+                            <div class="detailes">
+                                <h1>Vasanth</h1>
+                                <p>Ok</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="search">
@@ -130,6 +172,7 @@ New group(Ctrl+Shift+N)"></i>
                 <p id="sent-time">27-06-2025</p>
             </div>
         </div>
+
 
     </section>
 
